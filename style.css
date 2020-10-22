@@ -110,4 +110,9 @@ header ul li a {
     height: 20px;
     border-left: 3px solid #111;
     border-bottom: 3px solid #111;
+    transform: rotate(45deg);
+}
+
+.controls li:nth-child(2):before {
+    transform: rotate(225deg);   
 }
